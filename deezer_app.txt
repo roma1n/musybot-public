@@ -1,0 +1,2 @@
+<deezer app id>
+<deezer app secret>

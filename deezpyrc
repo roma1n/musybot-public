@@ -1,0 +1,7 @@
+[DEFAULT]
+naming template = tracks/<Artist> - <Title>
+playlist naming template = downloads/playlists/<Playlist Title>/<Track#> - <Title>
+quality = 2
+usertoken = <deezer user token>
+embed album art = False
+download lyrics = False
