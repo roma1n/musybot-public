@@ -1,4 +1,4 @@
-import telebot
+from telebot import TeleBot
 import deezer_handler
 import list_builder
 import traceback
@@ -8,7 +8,7 @@ import deezer
 with open('telebot_token.txt', 'r') as f:
     bot_token = f.read()
 
-bot = telebot.TeleBot(bot_token)
+bot = TeleBot(bot_token)
 
 ds = deezer_handler.Session()
 
@@ -136,4 +136,4 @@ def callback(cbq):
 
 
 if __name__ == '__main__':
-    bot.polling(none_stop=True, interval=1)
+     bot.polling(none_stop=True, interval=1)
